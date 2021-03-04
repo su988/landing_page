@@ -5,15 +5,18 @@ module.exports = {
     extend: {
       backgroundColor: (theme) => ({
         dark_green: '#387546',
+        pastel_green: '#598463',
         white: '#FFFFFF',
-        button: '#F19A33'
+        button_orange: '#F19A33',
+        button_green: '#387546'
       }),
       gradientColorStops: (theme) => ({
         primary: '#DEF0D8',
         secondary: '#FAFAFA'
       }),
       textColor: {
-        primary: '#383833'
+        primary: '#383833',
+        orange: '#F19A33'
       }
     }
   },
