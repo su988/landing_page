@@ -17,6 +17,9 @@ module.exports = {
       textColor: {
         primary: '#383833',
         orange: '#F19A33'
+      },
+      width: {
+        100: '26rem'
       }
     }
   },

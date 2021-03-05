@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import AboutUs from '../components/AboutUs';
 import Menu from '../components/Menu';
+import ImageGallery from '../components/ImageGallery';
 
 import styles from '../styles/Home.module.css';
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Header />
       <AboutUs />
       <Menu />
+      <ImageGallery />
     </>
   );
 }
