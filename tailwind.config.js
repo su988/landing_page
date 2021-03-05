@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        footer_desktop: "url('/footer_bg.svg')"
+      }),
       backgroundColor: (theme) => ({
         dark_green: '#387546',
         pastel_green: '#598463',

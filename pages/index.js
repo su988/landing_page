@@ -4,8 +4,8 @@ import Header from '../components/Header';
 import AboutUs from '../components/AboutUs';
 import Menu from '../components/Menu';
 import ImageGallery from '../components/ImageGallery';
-
-import styles from '../styles/Home.module.css';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -22,6 +22,8 @@ export default function Home() {
       <AboutUs />
       <Menu />
       <ImageGallery />
+      <Contact />
+      <Footer />
     </>
   );
 }
