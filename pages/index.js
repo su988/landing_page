@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import AboutUs from '../components/AboutUs';
+import Menu from '../components/Menu';
 
 import styles from '../styles/Home.module.css';
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <AboutUs />
+      <Menu />
     </>
   );
 }

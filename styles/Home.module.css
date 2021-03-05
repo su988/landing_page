@@ -1,7 +1,11 @@
+/* Header.js */
+
 .header_circle {
   width: 922px;
   height: 902px;
 }
+
+/* AboutUs.js */
 
 .about_circle {
   width: 740px;
@@ -11,4 +15,10 @@
 .about_image {
   width: 700px;
   height: 700px;
+}
+
+@media (min-width: 1025px) {
+  .about_text_position {
+    left: 53%;
+  }
 }
